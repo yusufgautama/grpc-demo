@@ -1,0 +1,10 @@
+type Post {
+    id: Int!
+    title: String!
+    body: String!
+    author: String!
+}
+
+type Query {
+    recentPosts(limit: Int): [Post]!
+}

@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: grpc-client
+  graphql:
+    graphiql:
+      enabled: true
+grpc:
+  client:
+    grpc-server:
+      address: 'localhost:8000'
+      enableKeepAlive: true
+      keepAliveWithoutCalls: true
+      negotiationType: plaintext
+
+graphql:
+  servlet:
+    mapping: /graphql

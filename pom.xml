@@ -20,6 +20,7 @@
         <module>grpc-interface</module>
         <module>grpc-server</module>
         <module>grpc-client</module>
+        <module>graphql-server</module>
         <!--        <module>grpc-server</module>-->
 <!--        <module>grpc-client</module>-->
     </modules>
